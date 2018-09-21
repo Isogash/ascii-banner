@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Convert to ascii banner",
+        "command": "ascii-banner:convert"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ascii-banner",
+          "submenu": [
+            {
+              "label": "Convert",
+              "command": "ascii-banner:convert"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
